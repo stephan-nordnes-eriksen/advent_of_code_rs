@@ -28,7 +28,7 @@ fn run_program(data: &mut Vec<i32>, noun: i32, verb: i32, desired_result: i32) -
     return desired_result == data[0];
 }
 pub fn advent() {
-    let filename = "./advent_2_1.data";
+    let filename = "./data/advent_2_1.data";
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
     let mut original_data = Vec::new();

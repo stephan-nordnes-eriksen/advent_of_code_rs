@@ -10,7 +10,7 @@ fn add_fuel_for_mass(mut current_sum: i64, mass: i64) -> i64 {
     return current_sum;
 }
 pub fn advent() {
-    let filename = "./advent_1_2.data";
+    let filename = "./data/advent_1_2.data";
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
     

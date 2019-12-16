@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 pub fn advent() {
-    let filename = "./advent_1_1.data";
+    let filename = "./data/advent_1_1.data";
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
 

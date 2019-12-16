@@ -8,7 +8,7 @@ fn opcode_multiply(data: &mut Vec<i32>, position_a: i32, position_b: i32, store_
     data[store_position as usize] = data[position_a as usize] * data[position_b as usize];
 }
 pub fn advent() {
-    let filename = "./advent_2_1.data";
+    let filename = "./data/advent_2_1.data";
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
     
